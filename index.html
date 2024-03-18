@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Холдинг</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+    <link rel="script" href="./js/main.js"/>
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Manrope:200,300,regular,500,600,700,800" rel="stylesheet" />
+    <meta name="description" content="Комплексные кадровые решения.">
+</head>
+<body>
+    <header>
+        <nav class="header-up">
+            <ul class="header-up-left">
+                <li><img class="header-up-logo" src="img/logo.png" alt="логотип"></li>
+                <li class="header-up-left-title active">Холдинг</li>
+                <li  class="header-up-left-title">Nordcore</li>
+                <li  class="header-up-left-title">Swift Technical</li>
+            </ul>
+
+            <div class="header-land">
+                <form action="" class="btn-form-up">
+                    <img src="img/ru.png" class="header-land-img" alt="ru">
+                    <label for="country"></label>
+                    <select id="country" name="country" class="form-control">
+                        <option value="Russian Federation">ru</option>
+                    </select>
+                </form>
+            </div>
+
+            <ul class="header-up-right">
+                <li class="header-up-email">
+                    <img class="btn-email-up" src="img/icons/mail.svg" alt="email">
+                </li>
+                <li class="btn-phone-up">
+                    <img class="header-up-phone-img" src="img/icons/phone.svg" alt="phone">
+                    <p class="header-up-phone-txt" onclick="window.open('tel:+74956636500');">+7 (495) 663-65-00</p>
+                </li>
+
+            </ul>
+        </nav>
+
+        <div class="header-down">
+            <nav class="header-down-left">
+                <form action="" class="header-down-form">
+                    <label for="services">Услуги</label>
+                    <select id="services" name="services" class="form-services">
+                        <option value="services"></option>
+                        <option value="services"></option>
+                        <option value="services"></option>
+                    </select>
+                </form>
+    
+                <ul class="header-down-ul">
+                    <li>О холдинге</li>
+                    <li>Кейсы</li>
+                </ul>
+    
+                <form action="" class="header-down-form-media">
+                    <label for="media">Медиа</label>
+                    <select id="media" name="media" class="form-media">
+                        <option value="media"></option>
+                        <option value="media"></option>
+                        <option value="media"></option>
+                    </select>
+                </form>
+    
+                <ul class="header-down-ul-contact">
+                    <li>Вакансии</li>
+                    <li>Контакты</li>
+                </ul>
+            </nav>
+            <div class="header-down-btn">
+                <button class="header-down-btn-resume">Отправить резюме</button>                
+                <button class="header-down-project">
+                    <p class="header-down-project-txt">Обсудить проект</p>
+                    <img class="header-down-img-project" src="img/icons/btn.svg" alt="btn">
+                </button>
+            </div>
+        </div>
+
+    </header>
+
+    <main >
+        <section class="background-main">
+            <div class="color">
+                <i class="color-i1"></i>
+                <i class="color-i2"></i>
+                <i class="color-i3"></i>
+                <i class="color-i4"></i>
+                <i class="color-i5"></i>
+            </div>
+            <div class="banner-woman">
+            </div>
+            <div class="banner-boat">
+            </div>
+
+            <div>
+                <div class="blog-heading">
+                    <h1><span style="color: rgba(74, 214, 255, 1);">//</span> Комплексные</h1>
+                    <div class="blog-heading-btn">
+                        <h2 class="blog-heading-h2">кадровые решения</h2>
+                    </div>
+                    <p class="blog-heading-parag">Консалтинговая компания Nordcore & Swift Technical занимается подбором и
+                         предоставлением высококвалифицированного персонала для крупнейших российских 
+                        и международных компаний.</p>
+                </div>
+
+                <div class="blog-heading-date">
+                    <div >
+                        <h3><span style="font-size: 48px;">2</span> офиса</h3>
+                        <hr class="heading-hr">
+                        <p class="blog-heading-date-txt">В Москве и Южно-Сахалинске</p>
+                    </div>
+
+                    <div class="blog-heading-date25">
+                        <h3><span style="font-size: 48px;">25</span> лет</h3>
+                        <hr class="heading-hr">
+                        <p class="blog-heading-date-txt">Помогаем компаниям</p>
+                    </div>
+
+                    <div class="blog-heading-date2">
+                        <h3><span style="font-size: 48px;">2</span> офиса</h3>
+                        <hr class="heading-hr">
+                        <p class="blog-heading-date-txt">В Москве и Южно-Сахалинске</p>
+                    </div>
+
+                    <div class="blog-heading-date_25">
+                        <h3><span style="font-size: 48px;">25</span> лет</h3>
+                        <hr class="heading-hr">
+                        <p class="blog-heading-date-txt">Помогаем компаниям</p>
+                    </div>
+
+                </div>
+            </div>
+            
+            <div class="card-company">
+                <div class="card-company-orange">
+                    <div class="card-company-white">
+                        <div class="swift-technical">
+                            <h4>Swift Technical</h4>
+                            <a href="#swiftechnical"><img class="card-company-arrow" src="img/icons/arrow.svg" alt="arrow" ></a>
+                        </div>
+                        <p class="card-company-txt">Подбор, временный персонал, технико-консультационные услуги</p>
+                        <div class="card-btn-orage">
+                            <p class="card-btn-txt-orage">Подбор персонала</p>
+                            <p class="card-btn-circle-orage">//</p>
+                            <p class="card-btn-txt-orage">Временный персонал</p>
+                            <p class="card-btn-txt-orage">Консультационные услуги</p>
+                            <p class="card-btn-circle-orage">//</p>
+                            <p class="card-btn-txt-orage">Подбор персонала</p>
+                        </div >
+                    </div>
+                </div>
+                <div class="card-company-green">
+                    <div class="card-company-green" >
+                        <div class="card-company-white">
+                            <div class="nordcore">
+                                <h4>Nordcore</h4>
+                                <a href="#nordcore"><img class="card-company-arrow" src="img/icons/arrow.svg" alt="arrow"></a>
+                            </div>
+                            <p class="card-company-txt">Карьерное консультирование B2C и корпоративное обучение B2B</p>
+                            <div class="card-btn-green">
+                                <p class="card-btn-txt-green">Подбор персонала</p>
+                                <p class="card-btn-circle-green">//</p>
+                                <b></b> 
+                                <p class="card-btn-circle-green">//</p>
+                                <p class="card-btn-txt-green">Консультационные услуги</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="blog-heading-team">
+                    <div class="blog-heading-team-txt-img">
+                        <h2 class="blog-heading-team-txt"><span style="color: rgba(101, 73, 212, 1);">//</span> Формируем команды,</h2>
+                        <div class="blog-heading-team-img">
+                            <p >Подробнее о холдинге</p>
+                            <img src="img/icons/list_icon.svg" alt="">
+                        </div>
+                    </div>
+
+                        <h2 class="blog-heading-team-btn">подбираем специалистов </h2>
+
+                    <p class="blog-heading-team-parag">Собираем эффективные команды и помогаем ими управлять. 
+                        <br>В любых формах занятости, для решения любых задач.</p>
+                </div>
+
+                <div class="blog-heading-team-date">
+                    <div >
+                        <h3><span style="font-size: 48px;">78</span> %</h3>
+                        <hr class="heading-hr">
+                        <p class="blog-heading-date-txt">Высокий процент закрытия вакансий</p>
+                    </div>
+
+                    <div class="blog-heading-date20-40">
+                        <h3><span style="font-size: 48px;">20–40</span> дней</h3>
+                        <hr class="heading-hr">
+                        <p class="blog-heading-date-txt">Средний срок закрытия вакансий</p>
+                    </div>
+
+                    <div class="blog-heading-date10000">
+                        <h3><span style="font-size: 48px;">10 000</span></h3>
+                        <hr class="heading-hr">
+                        <p class="blog-heading-date-txt">Сотрудников подобрали<br>за 25 лет</p>
+                    </div>
+
+                    <div class="blog-heading-date300000">
+                        <h3><span style="font-size: 48px;">300 000</span></h3>
+                        <hr class="heading-hr">
+                        <p class="blog-heading-date-txt">Специалистов <br>в собственной базе</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section  class="blog-nordcore" id="nordcore">
+            <h2 class="blog-nordcore-heading">Услуги Nordcore</h2>
+
+            <div class="blog-nordcore-card">
+                <div class="nordcore-card-consultation">
+                    <div class="nordcore-card-white">
+                        <div class="nordcore">
+                            <h4>Консультации</h4>
+                            <img class="card-company-arrow" src="img/icons/arrow.svg" alt="arrow">
+                        </div>
+                        <p class="nordcore-card-txt">Это обучающая платформа, которая собрала в себе полную коллекцию 
+                            лучших курсов по карьерному<br> консультированию, эйчар и повышению квалификации.</p>
+                    </div>
+                </div>
+    
+                <div class="nordcore-card-training">
+                    <div class="nordcore-card-white">
+                        <div class="nordcore">
+                            <h4>Обучение и оценка</h4>
+                            <img class="card-company-arrow" src="img/icons/arrow.svg" alt="arrow">
+                        </div>
+                        <p class="nordcore-card-txt">Это обучающая платформа, которая собрала в себе полную 
+                            коллекцию лучших курсов по карьерному<br> консультированию, эйчар и 
+                            повышению квалификации.</p>
+                            
+                    </div>
+                </div>
+            </div>
+
+            <div class="show-services">
+                <p>Показать все услуги</p>
+            </div>
+
+
+        </section>
+
+        <section  class="blog-swiftechnical" id="swiftechnical">
+            <h2 class="blog-nordcore-heading">Услуги Swift Technical</h2>
+
+            <div class="blog-nordcore-card">
+                <div class="swiftechnical-card-consultation">
+                    <div class="nordcore-card-white">
+                        <div class="nordcore">
+                            <h4>Консультации</h4>
+                            <img class="card-company-arrow" src="img/icons/arrow.svg" alt="arrow">
+                        </div>
+                        <p class="nordcore-card-txt">Это обучающая платформа, которая собрала в себе полную коллекцию 
+                            лучших курсов по карьерному<br> консультированию, эйчар и повышению квалификации.</p>
+                    </div>
+                </div>
+    
+                <div class="swiftechnical-card-training">
+                    <div class="nordcore-card-white">
+                        <div class="nordcore">
+                            <h4>Обучение и оценка</h4>
+                            <img class="card-company-arrow" src="img/icons/arrow.svg" alt="arrow">
+                        </div>
+                        <p class="nordcore-card-txt">Это обучающая платформа, которая собрала в себе полную 
+                            коллекцию лучших курсов по карьерному<br> консультированию, эйчар и 
+                            повышению квалификации.</p>
+                            
+                    </div>
+                </div>
+            </div>
+
+            <div class="blog-swiftechnical-card">
+                <div class="swiftechnical-card-consultation">
+                    <div class="nordcore-card-white">
+                        <div class="nordcore">
+                            <h4>Консультации</h4>
+                            <img class="card-company-arrow" src="img/icons/arrow.svg" alt="arrow">
+                        </div>
+                        <p class="nordcore-card-txt">Это обучающая платформа, которая собрала в себе полную коллекцию 
+                            лучших курсов по карьерному<br> консультированию, эйчар и повышению квалификации.</p>
+                    </div>
+                </div>
+    
+                <div class="swiftechnical-card-training">
+                    <div class="nordcore-card-white">
+                        <div class="nordcore">
+                            <h4>Обучение и оценка</h4>
+                            <img class="card-company-arrow" src="img/icons/arrow.svg" alt="arrow">
+                        </div>
+                        <p class="nordcore-card-txt">Это обучающая платформа, которая собрала в себе полную 
+                            коллекцию лучших курсов по карьерному<br> консультированию, эйчар и 
+                            повышению квалификации.</p>
+                            
+                    </div>
+                </div>
+            </div>
+            
+
+            <div class="show-services">
+                <p>Показать все услуги</p>
+            </div>
+        </section>
+
+        <section class="blog-cases">
+            <h2 class="blog-cases-heading">Кейсы</h2>
+            <div class="blog-cases-card">
+                <div class="blog-cases-card-item">
+                    <div class="blog-cases-card-item-electric">
+                        <p class="blog-cases-card-item-txt">Schneider Electric</p>
+                    </div>
+                    <div class="blog-cases-card-white">
+                        <p class="blog-cases-card-title">Подобрали 400 специалистов 
+                            в сфере промышленной автоматизации за месяц</p>
+                    </div>
+                </div>
+
+                <div class="blog-cases-card-item">
+                    <div class="blog-cases-card-item-electric">
+                        <p class="blog-cases-card-item-txt">Schneider Electric</p>
+                    </div>
+                    <div class="blog-cases-card-white">
+                        <p class="blog-cases-card-title">Подобрали 400 специалистов 
+                            в сфере промышленной автоматизации за месяц</p>
+                    </div>
+                </div>
+
+                <div class="blog-cases-card-item">
+                    <div class="blog-cases-card-item-electric">
+                        <p class="blog-cases-card-item-txt-green">Schneider Electric</p>
+                    </div>
+                    <div class="blog-cases-card-white">
+                        <p class="blog-cases-card-title">Подобрали 400 специалистов 
+                            в сфере промышленной автоматизации за месяц</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="show-services-cases">
+                <p>Показать все кейсы</p>
+            </div>
+        </section>
+
+        <section class="blog-media">
+            <h2 class="blog-media-heading">Медиа</h2>
+            <nav>
+                <ul class="blog-media-nav">
+                    <li class="blog-media-nav-txt blog-media-active">Последние материалы</li>
+                    <li class="blog-media-nav-txt">Статьи</li>
+                    <li class="blog-media-nav-txt">Гайды</li>
+                    <li class="blog-media-nav-txt">Новости</li>
+                </ul>
+            </nav>
+
+            <div class="blog-media-card">
+                <div class="blog-cases-card-item">
+                    <div class="blog-cases-card-item-electric">
+                        <p class="blog-media-card-item-txt">Статьи</p>
+                    </div>
+                    <div class="blog-media-card-white">
+                        <p class="blog-media-card-title">21 сентября</p>
+                        <p class="blog-cases-card-title">Подобрали 400 специалистов 
+                            в сфере промышленной автоматизации за месяц</p>
+                    </div>
+                </div>
+
+                <div class="blog-cases-card-item">
+                    <div class="blog-cases-card-item-electric">
+                        <p class="blog-media-card-item-txt">Новости</p>
+                    </div>
+                    <div class="blog-media-card-white">
+                        <p class="blog-media-card-title">21 сентября</p>
+                        <p class="blog-cases-card-title">Подобрали 400 специалистов 
+                            в сфере промышленной автоматизации за месяц</p>
+                    </div>
+                </div>
+
+                <div class="blog-cases-card-item">
+                    <div class="blog-cases-card-item-electric">
+                        <p class="blog-media-card-item-txt">Гайды</p>
+                    </div>
+                    <div class="blog-media-card-white">
+                        <p class="blog-media-card-title">21 сентября</p>
+                        <p class="blog-cases-card-title">Подобрали 400 специалистов 
+                            в сфере промышленной автоматизации за месяц</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="show-services-media">
+                <p>Показать все материалы</p>
+            </div>
+        </section>
+
+        <section class="blog-new-profession">
+            <div class="color">
+                <i class="color-i1"></i>
+                <i class="color-i2"></i>
+
+            </div>
+            <div class="banner-man">
+            </div>
+
+            <div class="new-profession-txt">
+                <h2 class="new-profession-heading"><span style="color: rgba(2, 204, 137, 1);">//</span> Всё получится: 
+                    новая профессия и новая жизнь</h2>
+                <p class="blog-heading-parag">С вами всегда наставники, ревьюеры и такие же как вы студенты. 
+                    Реальные проекты и целая платформа 
+                    с упражнениями помимо теории. Практикум помогает прийти к цели быстрее. Главное — идти!.</p>
+            </div>
+
+            <div class="new-profession-btn">
+                <div class="new-profession-btn-project">
+                    <p>Обсудить проект</p>
+                    <img src="img/icons/btn.svg" alt="icon" class="new-profession-icon">
+                </div>
+                <div class="new-profession-btn-resume">
+                    <p >Отправить резюме</p>
+                    <img src="img/icons/icon_mail.svg" alt="icon" class="new-profession-icon">
+                </div>
+            </div>
+
+        </section>
+
+        <section  class="blog-client-feedback" >
+            <h2 class="blog-client-feedbackl-heading">Отзывы клиентов</h2>
+
+            <div class="blog-client-feedback-card">
+                <div class="blog-client-feedback-card-item">
+                    <div class="blog-client-feedback-btn">
+                        <p>ЗАО «ТАМАНЬНЕФТЕГАЗ»</p>
+                    </div>
+                    <div class="client-feedback-card-white">
+                        <div class="client-feedback-card-txt">
+                            <p >
+                                Слаженная и качественная работа, профессиональный подход 
+                                к выполнению своих обязательств позволяют осуществлять поставленные 
+                                задачи и гарантировать непрерывность производственного процесса. 
+                            </p>
+                                <p>Надеемся на дальнейшее взаимовыгодное сотрудничество. Слаженная и 
+                                качественная работа, профессиональный подход к выполнению своих 
+                                обязательств позволяют осуществлять поставленные задачи и гарантировать 
+                                непрерывность производственного процесса.</p>
+                        </div>
+                        <div class="client-feedback-card-txt-click" >
+                            <img src="./img/icons/solar_notification-unread-bold.svg" alt="icon">
+                            <p>Читать полностью</p>
+                        </div>
+
+                        <div class="client-feedback-card-signature">
+                            <p><b>А. М. Меткин</b></p>
+                            <p style="opacity: 0.5; font-size: 14px;">Генеральный директор</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="blog-client-feedback-card-item">
+                    <div class="blog-client-feedback-btn-orange">
+                        <p>ЗАО «ТАМАНЬНЕФТЕГАЗ»</p>
+                    </div>
+                    <div class="client-feedback-card-white">
+                        <div class="client-feedback-card-txt">
+                            <p >
+                                Слаженная и качественная работа, профессиональный подход 
+                                к выполнению своих обязательств позволяют осуществлять поставленные 
+                                задачи и гарантировать непрерывность производственного процесса. 
+                            </p>
+                        </div>
+                        <div class="client-feedback-card-signature-orange">
+                            <p><b>З. А. Грызлова</b></p>
+                            <p style="opacity: 0.5; font-size: 14px;">Начальник отдела закупок</p>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+
+            <div class="client-feedback">
+                <p>Показать все отзывы</p>
+            </div>
+        </section>
+
+        <section class="blog-carousel-directors">
+            <h2 class="carousel-directors-heading">Совет директоров</h2>
+
+            <div class="wrapper" >
+                <div id="carousel">
+                    <div class="blog-directors"  id="content" >
+                        <img class="arrow-left" src="./img/icons/arrow-left.svg" alt="arrow" id="prev">
+
+                        <div class="carousel-directors">
+                            <div class="cart-directors">
+                                <div class="cart-directors-btn">
+                                    <p class="cart-directors-btn-green">Nordcore</p>
+                                    <p class="cart-directors-btn-orange">Swift Technical</p>
+                                </div>
+
+                                <div class="cart-directors-title">
+                                    <p class="cart-directors-title-bold">Лариса Катунина</p>
+                                    <p class="cart-directors-title-small">Генеральный директор и собственник компании</p>
+                                </div>
+
+                                <div class="cart-directors-phone">
+                                    <p class="cart-directors-phone-bold">8 (919) 970 03 08</p>
+                                    <p class="cart-directors-phone-small">larisa.katunina@swifttechnical.ru</p>
+                                </div>
+            
+                            </div>
+                        </div>
+
+                        <div class="carousel-directors">
+                            <div class="cart-directors">
+                                <div class="cart-directors-btn">
+                                    <p class="cart-directors-btn-green">Nordcore</p>
+                                    <p class="cart-directors-btn-orange">Swift Technical</p>
+                                </div>
+
+                                <div class="cart-directors-title">
+                                    <p class="cart-directors-title-bold">Виолетта Романова</p>
+                                    <p class="cart-directors-title-small">Директор по подбору персонала
+                                        и развития <br> бизнеса</p>
+                                </div>
+
+                                <div class="cart-directors-phone2">
+                                    <p class="cart-directors-phone-bold">8 (919) 970 03 08</p>
+                                    <p class="cart-directors-phone-small">larisa.katunina@swifttechnical.ru</p>
+                                </div>
+            
+                            </div>
+                        </div>
+
+                        <div class="carousel-directors">
+                            <div class="cart-directors">
+                                <div class="cart-directors-btn">
+                                    <p class="cart-directors-btn-green">Nordcore</p>
+                                    <p class="cart-directors-btn-orange">Swift Technical</p>
+                                </div>
+
+                                <div class="cart-directors-title">
+                                    <p class="cart-directors-title-bold">Федор Коршунов</p>
+                                    <p class="cart-directors-title-small">Генеральный директор и собственник компании</p>
+                                </div>
+
+                                <div class="cart-directors-phone">
+                                    <p class="cart-directors-phone-bold">8 (919) 970 03 08</p>
+                                    <p class="cart-directors-phone-small">larisa.katunina@swifttechnical.ru</p>
+                                </div>
+            
+                            </div>
+                        </div>
+
+                        <div class="carousel-directors">
+                            <div class="cart-directors">
+                                <div class="cart-directors-btn">
+                                    <p class="cart-directors-btn-green">Nordcore</p>
+                                    <p class="cart-directors-btn-orange">Swift Technical</p>
+                                </div>
+
+                                <div class="cart-directors-title">
+                                    <p class="cart-directors-title-bold">Лариса Катунина</p>
+                                    <p class="cart-directors-title-small">Генеральный директор и собственник компании</p>
+                                </div>
+
+                                <div class="cart-directors-phone">
+                                    <p class="cart-directors-phone-bold">8 (919) 970 03 08</p>
+                                    <p class="cart-directors-phone-small">larisa.katunina@swifttechnical.ru</p>
+                                </div>
+            
+                            </div>
+                        </div>
+
+                        <div class="carousel-directors">
+                            <div class="cart-directors">
+                                <div class="cart-directors-btn">
+                                    <p class="cart-directors-btn-green">Nordcore</p>
+                                    <p class="cart-directors-btn-orange">Swift Technical</p>
+                                </div>
+
+                                <div class="cart-directors-title">
+                                    <p class="cart-directors-title-bold">Виолетта Романова</p>
+                                    <p class="cart-directors-title-small">Директор по подбору персонала
+                                        и развития <br> бизнеса</p>
+                                </div>
+
+                                <div class="cart-directors-phone2">
+                                    <p class="cart-directors-phone-bold">8 (919) 970 03 08</p>
+                                    <p class="cart-directors-phone-small">larisa.katunina@swifttechnical.ru</p>
+                                </div>
+            
+                            </div>
+                        </div>
+
+                        <div class="carousel-directors">
+                            <div class="cart-directors">
+                                <div class="cart-directors-btn">
+                                    <p class="cart-directors-btn-green">Nordcore</p>
+                                    <p class="cart-directors-btn-orange">Swift Technical</p>
+                                </div>
+
+                                <div class="cart-directors-title">
+                                    <p class="cart-directors-title-bold">Федор Коршунов</p>
+                                    <p class="cart-directors-title-small">Генеральный директор и собственник компании</p>
+                                </div>
+
+                                <div class="cart-directors-phone">
+                                    <p class="cart-directors-phone-bold">8 (919) 970 03 08</p>
+                                    <p class="cart-directors-phone-small">larisa.katunina@swifttechnical.ru</p>
+                                </div>
+            
+                            </div>
+                        </div>
+                        
+                        <div class="carousel-directors">
+                            <div class="cart-directors">
+                                <div class="cart-directors-btn">
+                                    <p class="cart-directors-btn-green">Nordcore</p>
+                                    <p class="cart-directors-btn-orange">Swift Technical</p>
+                                </div>
+
+                                <div class="cart-directors-title">
+                                    <p class="cart-directors-title-bold">Виолетта Романова</p>
+                                    <p class="cart-directors-title-small">Директор по подбору персонала
+                                        и развития <br> бизнеса</p>
+                                </div>
+
+                                <div class="cart-directors-phone2">
+                                    <p class="cart-directors-phone-bold">8 (919) 970 03 08</p>
+                                    <p class="cart-directors-phone-small">larisa.katunina@swifttechnical.ru</p>
+                                </div>
+            
+                            </div>
+                        </div>
+
+                        <div class="carousel-directors">
+                            <div class="cart-directors">
+                                <div class="cart-directors-btn">
+                                    <p class="cart-directors-btn-green">Nordcore</p>
+                                    <p class="cart-directors-btn-orange">Swift Technical</p>
+                                </div>
+
+                                <div class="cart-directors-title">
+                                    <p class="cart-directors-title-bold">Федор Коршунов</p>
+                                    <p class="cart-directors-title-small">Генеральный директор и собственник компании</p>
+                                </div>
+
+                                <div class="cart-directors-phone">
+                                    <p class="cart-directors-phone-bold">8 (919) 970 03 08</p>
+                                    <p class="cart-directors-phone-small">larisa.katunina@swifttechnical.ru</p>
+                                </div>
+            
+                            </div>
+                        </div>
+
+                        <div class="carousel-directors">
+                            <div class="cart-directors">
+                                <div class="cart-directors-btn">
+                                    <p class="cart-directors-btn-green">Nordcore</p>
+                                    <p class="cart-directors-btn-orange">Swift Technical</p>
+                                </div>
+
+                                <div class="cart-directors-title">
+                                    <p class="cart-directors-title-bold">Лариса Катунина</p>
+                                    <p class="cart-directors-title-small">Генеральный директор и собственник компании</p>
+                                </div>
+
+                                <div class="cart-directors-phone">
+                                    <p class="cart-directors-phone-bold">8 (919) 970 03 08</p>
+                                    <p class="cart-directors-phone-small">larisa.katunina@swifttechnical.ru</p>
+                                </div>
+            
+                            </div>
+                        </div>
+
+                        <div class="carousel-directors">
+                            <div class="cart-directors">
+                                <div class="cart-directors-btn">
+                                    <p class="cart-directors-btn-green">Nordcore</p>
+                                    <p class="cart-directors-btn-orange">Swift Technical</p>
+                                </div>
+
+                                <div class="cart-directors-title">
+                                    <p class="cart-directors-title-bold">Виолетта Романова</p>
+                                    <p class="cart-directors-title-small">Директор по подбору персонала
+                                        и развития <br> бизнеса</p>
+                                </div>
+
+                                <div class="cart-directors-phone2">
+                                    <p class="cart-directors-phone-bold">8 (919) 970 03 08</p>
+                                    <p class="cart-directors-phone-small">larisa.katunina@swifttechnical.ru</p>
+                                </div>
+            
+                            </div>
+                        </div>
+
+                        <div class="carousel-directors">
+                            <div class="cart-directors">
+                                <div class="cart-directors-btn">
+                                    <p class="cart-directors-btn-green">Nordcore</p>
+                                    <p class="cart-directors-btn-orange">Swift Technical</p>
+                                </div>
+
+                                <div class="cart-directors-title">
+                                    <p class="cart-directors-title-bold">Федор Коршунов</p>
+                                    <p class="cart-directors-title-small">Генеральный директор и собственник компании</p>
+                                </div>
+
+                                <div class="cart-directors-phone">
+                                    <p class="cart-directors-phone-bold">8 (919) 970 03 08</p>
+                                    <p class="cart-directors-phone-small">larisa.katunina@swifttechnical.ru</p>
+                                </div>
+            
+                            </div>
+                        </div>
+            
+                        <img class="arrow-right" src="./img/icons/arrow-left.svg" alt="arrow" id="next">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="blog-consultation">
+            <div class="blog-consultation-specialist">
+                <h2 class="specialist-heading">Консультация специалиста</h2>
+                <p class="specialist-paragraph">Напишите нам, позвоните или оставьте заявку. 
+                    Выбирайте наиболее удобный для вас способ коммуникации!</p>
+                <div class="social-networking">
+                    <a href="https://web.telegram.org/a/" target="_blank" class="telegram grid-social">
+                        <img src="img/icons/telegram.svg" alt="telegram">
+                        <p class="telegram">Telegram</p>
+                    </a>
+                    <a href="https://web.whatsapp.com/" target="_blank" class=" grid-social">
+                        <img src="img/icons/whatsapp.svg" alt="whatsapp">
+                        <p class="whatsapp">Whatsapp</p>
+                    </a>
+                    <a href="https://vk.com" target="_blank" class=" grid-social">
+                        <img src="img/icons/vk.svg" alt="Вконтакте">
+                        <p class="vk">Вконтакте</p>
+                    </a>
+                    <a href="https://e.mail.ru/" target="_blank" class=" grid-social">
+                        <img src="img/icons/mail.svg" alt="почта">
+                        <p class="mail">Почта</p>
+                    </a>
+                </div>
+            </div>
+            <div class="blog-consultation-request">
+                <form action="">
+                    <label for="username"><h3 class="request-heading">Оставьте заявку</h3></label>
+                    <input type="text" class="request-input name-input" placeholder="Имя" id="username">
+                    <input type="phone" class="request-input phone-input" placeholder="Телефон" id="phone">
+                    <input type="email" class="request-input email-input" placeholder="Email" id="email">
+                    <p class="request-paragraph"><span style="color: rgba(74, 214, 255, 1);">//</span> Нажимая на кнопку «Отправить данные», вы даете согласие на
+                        обработку персональный данных</p>
+                    <button type="submit" class="request-button"  value="Проверить" onClick="ValidMail(); ValidPhone();">Отправить данные <img class="request-button-img" src="img/icons/mail.svg" alt="почта"></button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+
+
+    <footer class="footer">
+        <div class="footer-label">
+
+            <div class="footer-label-swiftechnical">
+                <img src="img/icon-swiftechnical.png" alt="icon-swiftechnical">
+                <h5>Swift technical</h5>
+            </div>
+
+            <div class="footer-label-nordcore">
+                <img src="img/icon-nordcore.png" alt="icon-nordcore">
+                <h5>Nordcore</h5>
+            </div>
+
+            <div class="footer-label-txt">
+                <p>Москва</p>
+                <p class="footer-label-txt-opacity">4й Добрынинский переулок, дом 8, офис С03-01</p>
+            </div>
+
+            <div class="footer-label-txt-contact">
+                <p class="footer-label-txt-opacity">Contact@SwiftTechnical.ru</p>
+                <p class="footer-label-phone">+7 (495) 663-65-00</p>
+            </div>
+
+        </div>
+
+        <hr>
+
+        <nav class="footer-nav">
+            <figure >
+                <figcaption class="footer-nav-heading">Swift Technical</figcaption>
+                <ul class="footer-nav-swiftechnical">
+                    <li>Подбор персонала</li>
+                    <li>Временный персонал</li>
+                    <li>Консультационные услуги</li>
+                    <li>Подбор персонала</li>
+                    <li>Временный персонал</li>
+                    <li>Консультационные услуги</li>   
+                </ul>
+            </figure>
+
+            <figure >
+                <figcaption class="footer-nav-heading">Nordcore</figcaption>
+                <ul class="footer-nav-nordcore">
+                    <li>Обучение и оценка</li>
+                    <li>Консультационные услуги</li>
+                    <li>Обучение и оценка</li>
+                    <li>Консультационные услуги</li>
+                    <li>Обучение и оценка</li>
+                    <li>Консультационные услуги</li>  
+                </ul>
+            </figure>
+
+            <figure >
+                <figcaption class="footer-nav-heading">Кейсы</figcaption>
+                <figcaption class="footer-nav-heading">Мудиа</figcaption>
+                <ul class="footer-nav-case">
+                    <li>Статьи</li>
+                    <li>Гайды</li>
+                    <li>Новости</li>
+                    <li>Мероприятия</li>  
+                </ul>
+            </figure>
+
+            <ul class="footer-nav-holding ">
+                <li class="footer-nav-heading">О холдинге</li>
+                <li class="footer-nav-heading">Вакансии</li>
+                <li class="footer-nav-heading">Контакты</li>
+            </ul>
+
+            <div class="footer-nav-contact">
+                <p class="footer-label-txt-opacity">Почта для резюмеu</p>
+                <p class="footer-nav-phone">Rabota@SwiftTechnical.ru</p>
+                <div class="footer-logo-social">
+                    <a class="item1" href="https://web.telegram.org/a/" target="_blank">
+                        <img class="footer-icon" src="img/icons/footer/mingcute_telegram-fill.svg" alt="logo">
+                    </a>
+                    
+                    <a class="item2" href="https://dzen.ru" target="_blank">
+                        <img class="footer-icon" src="img/icons/footer/Frame.svg" alt="logo">
+                    </a>
+                    <a class="item3" href="https://vk.com" target="_blank">
+                        <img class="footer-icon" src="img/icons/footer/basil_vk-solid.svg" alt="logo">
+                    </a>
+                    <a class="item4" href="https://www.linkedin.com/" target="_blank">
+                        <img class="footer-icon" src="img/icons/footer/ri_linkedin-fill.svg" alt="logo">
+                    </a>
+                    <a class="item5" href="https://hh.ru/" target="_blank">
+                        <img class="footer-icon " src="img/icons/footer/hh.svg" alt="logo">
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+        <hr>
+
+        <div class="footer-rights">
+            <div class="footer-rights-up">
+                <p  class="footer-rights-title">Политика конфиденциальности</p>
+                <p class="footer-rights-txt">Сайт носит информационный характер и ни при каких условиях не является публичной офертой, 
+                    определяемой положениями статьи 437(2) Гражданского кодекса Российской Федерации. Условия и 
+                    стоимость предоставления услуг необходимо уточнять у менеджера.</p>
+            </div>
+            <div class="footer-rights-under">
+                <p class="footer-rights-title">Сделано в  CULT</p>
+                <p class="footer-rights-txt">1997–2023 © Nordcore & Swift Technical</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+<script src="./js/main.js"></script>
+</html>
